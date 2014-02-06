@@ -1,0 +1,9 @@
+D:\WebSites\TMS\TMSDAL\TMSDAL\bin\Debug\TMSDAL.dll
+D:\WebSites\TMS\TMSDAL\TMSDAL\bin\Debug\TMSDAL.pdb
+D:\WebSites\TMS\TMSDAL\TMSDAL\bin\Debug\TMSDAL.xml
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\TMSDAL.Resources.resources
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\TMSDAL.vbproj.GenerateResource.Cache
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\TMSDAL.dll
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\TMSDAL.xml
+D:\WebSites\TMS\TMSDAL\TMSDAL\obj\Debug\TMSDAL.pdb

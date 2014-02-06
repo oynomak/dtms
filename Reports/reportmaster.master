@@ -1,0 +1,16 @@
+<%@ Master Language="VB" CodeFile="reportmaster.master.vb" Inherits="reportmaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Taxpayer Management System(TMS)</title>
+    <link rel="stylesheet" type="text/css" href="../mystyle.css" />
+</head>
+<body class="reportbody">
+    <form id="MasterPageForm" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

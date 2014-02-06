@@ -1,0 +1,9 @@
+bin\Debug\MINALOCDAL.dll
+bin\Debug\MINALOCDAL.pdb
+bin\Debug\MINALOCDAL.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MINALOCDAL.Resources.resources
+obj\Debug\MINALOCDAL.vbproj.GenerateResource.Cache
+obj\Debug\MINALOCDAL.dll
+obj\Debug\MINALOCDAL.xml
+obj\Debug\MINALOCDAL.pdb

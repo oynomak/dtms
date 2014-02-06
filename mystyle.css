@@ -1,0 +1,284 @@
+﻿body, div, p, h1, h2, h3, h4, ul, li, table
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body
+{
+	font-family: Tahoma,Verdana,Arial;
+	background-color: #dcdcdc;
+	font-size: 12px;
+}
+
+/* Master Page Layout */
+.master_header
+{
+	margin: -1px auto 1px auto;
+	width: 1000px;
+	height: 145px;
+	background: url(Images/dtmsbanner.jpg) no-repeat left top;
+	background-color:#2C4182;
+}
+
+#master_headerbottom
+{
+	width: 820px;
+	margin: 20px auto 0px 180px;
+	background-image: url(Images/Plastic Blue/mItemBack.gif);
+	background-color: #2C4182;
+}
+
+#master_page
+{
+	margin: 1px auto 5px auto;
+	width: 1000px;
+	background-color: #ffffff;
+	border-top: 3px solid #2C4182;
+	
+}
+
+#master_menu
+{
+	float: left;
+	width: 170px;
+	padding-right: 10px;
+	
+}
+
+#master_content
+{
+	float: left;
+	width: 800px;
+	margin-right: -550px;
+	margin-top: 5px;
+	background-color: #ffffff;
+}
+
+#master_content a
+{
+	color: #0000ff;
+	padding: 1px;
+}
+
+#master_content a:link
+{
+}
+
+#master_content a:visited
+{
+}
+
+#master_content a:hover
+{
+	background-color: #BFBFBF;
+	color: #0000ff;
+}
+
+#master_content ul
+{
+	margin: 0 25px 0 30px;
+}
+
+#master_contentheader
+{
+	height: 19px;
+	background: url(images/rightcoltop.gif) no-repeat right top;
+}
+
+#master_contentplaceholder
+{
+	padding: 30px 20px 40px 20px;
+	border-left: 1px solid #0F2543;
+	border-right: 1px solid #0F2543;
+	border-bottom: 1px solid #0F2543;
+	background-color: #EFEFEF;
+	line-height: 1.5em;
+	font-size: 12px;
+}
+
+#master_contentfooter
+{
+	margin: -1px auto 0 auto;
+	clear: both;
+	width: 1000px;
+	background-color: #ffffff;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.centerbox
+{
+	left: 5px;
+	float: left;
+	clear: left;
+	margin-top: 10px;
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.sidebar
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.sidebarheader
+{
+	height: 22px;
+	margin: 5px auto 5px 5px;
+}
+
+.centerbox table
+{
+	width: 100%;
+	font-size: 11px;
+}
+
+.simplebordered
+{
+	left: 7px;
+	float: none;
+	border-top: #2C4182 4px solid;
+	border-left: #2C4182 1px solid;
+	border-right: #2C4182 1px solid;
+	border-bottom: #2C4182 4px solid;
+	clear: both;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 0px 5px 5px;
+}
+
+.simplebordered li
+{
+	list-style: circle url(Images/arrow.gif) outside;
+	text-indent: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.sublist li
+{
+	list-style: circle url(Images/arrow1.gif) outside;
+	text-indent: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.topsubheader
+{
+	clear: right;
+	float: right;
+	height: 50px;
+	margin:  0px 0px auto 0px;
+	padding: 5px 5px auto 60px;
+	width: 300px;
+	color: #ffffff;
+	background-position: left top;
+	background-image: url(Images/bottomround.gif);
+	background-repeat: no-repeat;
+}
+
+.topsubheader a
+{
+	color: #ffffff; 
+	font-weight:bolder;  
+}
+
+.rightsubheader
+{
+	clear: right;
+	float: right;
+	height: 50px;
+	margin: auto 5px auto auto;	
+	background-color:#2C4182; 
+}
+.rightsidebar
+{
+	clear: right;
+	float: right;
+	width: 25%;
+	border-right: #e6e6fa 1px solid;
+	border-top: #e6e6fa 1px solid;
+	border-left: #e6e6fa 1px solid;
+	border-bottom: #e6e6fa 1px solid;
+}
+.headerlabel
+{
+	font-weight: bold;
+	margin: 0px 0px 20px 0px;
+	padding: 5px 0px 7px 5px;
+	clear: both;
+	float: none;
+	font-size: 10pt;
+	width: 570px;
+	height: 20px;
+	text-transform: capitalize;
+	font-family: Verdana, Tahoma;
+}
+.headerlabel img
+{
+	width: 33px;
+	height: 32px;
+}
+
+.printerlabel
+{
+	margin: 0px 10px 5px 0px;
+	padding: 5px 5px 1px 0px;
+	clear: both;
+	float: right;
+	font-size: 9pt;
+}
+
+.printerlabel img
+{
+	width: 24px;
+	height: 24px;
+}
+.contentbox
+{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	clear: none;
+}
+
+.coverimage
+{
+	height: 101px;
+	width: 105px;
+}
+.tableheader
+{
+	font-weight: bold;
+	background-color: #e1e1e1;
+	text-align: left;
+	color: black;
+	height: 20px;
+}
+.tablefooter
+{
+	font-weight: bold;
+	background-color: #e1e1e1;	
+	color: red;
+	height: 20px;
+}
+.popupControl
+{
+	background-color: White;
+	position: absolute;
+	visibility: hidden;
+}
+
+.reportbody
+{
+	background-color: #ffffff;
+}
+
+.buttons
+{
+	border: green 1px solid;
+}

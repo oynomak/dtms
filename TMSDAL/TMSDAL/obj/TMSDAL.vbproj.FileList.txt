@@ -1,0 +1,9 @@
+bin\Debug\TMSDAL.dll
+bin\Debug\TMSDAL.pdb
+bin\Debug\TMSDAL.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TMSDAL.Resources.resources
+obj\Debug\TMSDAL.vbproj.GenerateResource.Cache
+obj\Debug\TMSDAL.dll
+obj\Debug\TMSDAL.xml
+obj\Debug\TMSDAL.pdb

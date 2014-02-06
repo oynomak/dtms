@@ -1,0 +1,177 @@
+<%@ Master Language="VB" CodeFile="mainmaster.master.vb" Inherits="mainmaster" %>
+<%@ Register Assembly="DevExpress.Web.ASPxMenu.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4"
+    Namespace="DevExpress.Web.ASPxMenu" TagPrefix="dxwm" %>
+<%@ Register Assembly="DevExpress.Web.ASPxNavBar.v6.2, Version=6.2.4.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4"
+    Namespace="DevExpress.Web.ASPxNavBar" TagPrefix="dxwn" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Taxpayer Management System(TMS)</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="stylesheet" type="text/css" href="../mystyle.css" />
+</head>
+<body>
+    <form id="MasterPageForm" runat="server">
+        <div class="master_header">
+            <div class="topsubheader">
+                &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;<asp:LinkButton ID="Rwanda" runat="server" Text="Kinyarwanda"
+                    ToolTip="Kinyarwanda" />&nbsp;|&nbsp;
+                <asp:LinkButton ID="England" runat="server" Text="English" ToolTip="English" />&nbsp;|&nbsp;
+                <asp:LinkButton ID="France" runat="server" Text="French" ToolTip="Français" />
+            </div>
+            <div class="rightsubheader">
+                <asp:TextBox ID="txtGeneralSearch" runat="server" Width="136px"></asp:TextBox><asp:ImageButton
+                    ID="btnMainSearch" runat="server" ImageUrl="Images/search.gif" ImageAlign="Top"
+                    TabIndex="20" Height="25px" /></div>
+            <div id="master_headerbottom">
+                <dxwm:ASPxMenu ID="ASPxMenu1" runat="server" ItemSpacing="1px" BackColor="#2C4182">
+                    <Items>
+                        <dxwm:MenuItem Text="Home" NavigateUrl="~/Default.aspx" ToolTip="Go to the Home page">
+                        </dxwm:MenuItem>
+                        <dxwm:MenuItem Text="Taxpayers" NavigateUrl="~/TaxPayers.aspx" ToolTip="View the list of taxpayers">
+                        </dxwm:MenuItem>
+                        <dxwm:MenuItem Text="Payments" NavigateUrl="~/TaxPayments.aspx" ToolTip="View tax payments">
+                        </dxwm:MenuItem>
+                        <dxwm:MenuItem BeginGroup="True" Name="users" NavigateUrl="Admin/Users.aspx" Text="Users"
+                            ToolTip="View the list of users">
+                        </dxwm:MenuItem>
+                        <dxwm:MenuItem Name="reports" NavigateUrl="~/reports.aspx" Text="Reports" ToolTip="View the list of reports">
+                        </dxwm:MenuItem>
+                        <dxwm:MenuItem Text="Control Panel" NavigateUrl="Admin/controlpanel.aspx" Name="controlpanel"
+                            ToolTip="Open the Administrators control panel">
+                        </dxwm:MenuItem>
+                    </Items>
+                    <ItemSubMenuOffset FirstItemY="-1" LastItemY="-1" Y="-1" />
+                    <ItemStyle ForeColor="White">
+                        <SelectedStyle BackColor="#DEDEDE">
+                            <BackgroundImage ImageUrl="~/Images/Plastic Blue/mItemSBack.gif" Repeat="RepeatY" />
+                            <Border BorderWidth="0px" />
+                        </SelectedStyle>
+                        <HoverStyle BackColor="#E9E9E9" ForeColor="Black">
+                            <BackgroundImage ImageUrl="~/Images/Plastic Blue/mItemHBack.gif" Repeat="RepeatY" />
+                            <Border BorderWidth="0px" />
+                        </HoverStyle>
+                        <Paddings PaddingBottom="5px" PaddingLeft="18px" PaddingRight="16px" PaddingTop="3px" />
+                        <BackgroundImage ImageUrl="~/Images/Plastic Blue/mItemBack.gif" Repeat="RepeatY" />
+                        <Border BorderWidth="0px" />
+                    </ItemStyle>
+                    <SubMenuStyle BackColor="#CCCCCC" GutterColor="#CCCCCC" GutterWidth="0px" SeparatorColor="#E9E9E9">
+                        <Paddings Padding="0px" />
+                        <Border BorderColor="#CCCCCC" />
+                    </SubMenuStyle>
+                    <VerticalPopOutImage Url="~/Images/Plastic Blue/mVPopOut.gif" />
+                    <Border BorderColor="#2C4182" />
+                    <SeparatorBackgroundImage ImageUrl="~/Images/Plastic Blue/mSeparator.gif" Repeat="RepeatY" />
+                    <Paddings Padding="0px" />
+                    <BorderLeft BorderWidth="0px" />
+                    <RootItemSubMenuOffset FirstItemX="1" LastItemX="1" X="1" />
+                    <SubMenuItemStyle BackColor="WhiteSmoke">
+                        <SelectedStyle BackColor="#DEDEDE">
+                            <Border BorderColor="#DEDEDE" />
+                        </SelectedStyle>
+                        <HoverStyle BackColor="#E9E9E9">
+                            <BorderLeft BorderColor="White" />
+                            <BorderTop BorderColor="White" />
+                            <BorderRight BorderColor="#E9E9E9" />
+                            <BorderBottom BorderColor="#E9E9E9" />
+                        </HoverStyle>
+                        <Paddings PaddingBottom="3px" PaddingLeft="8px" PaddingRight="8px" PaddingTop="3px" />
+                        <Border BorderColor="White" BorderWidth="1px" />
+                    </SubMenuItemStyle>
+                </dxwm:ASPxMenu>
+            </div>
+        </div>
+        <div id="master_page">
+            <div id="master_menu">
+                <div class="simplebordered">
+                    <div class="sidebarheader">
+                        <asp:Image ID="userimage" runat="server" ImageUrl="~/Images/user.jpg" ImageAlign="AbsMiddle" />
+                        <asp:Label ID="lblUserInfo" runat="server" Height="11px">User:</asp:Label>
+                    </div>
+                    <div class="sidebarheader">
+                        <asp:Image ID="loginimage" runat="server" ImageUrl="~/Images/security.jpg" ImageAlign="AbsMiddle" />
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Sign In" LogoutText="Sign Out"
+                            LogoutAction="RedirectToLoginPage" />
+                    </div>
+                    <div class="sidebarheader">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/home.jpg" ImageAlign="AbsMiddle" />
+                        <asp:Label ID="lblLocation" runat="server" Height="11px"></asp:Label>
+                    </div>
+                </div>
+                <br />
+                <dxwn:ASPxNavBar ID="NavBar1" runat="server" Width="170px" GroupSpacing="1px">
+                    <GroupContentStyle BackColor="#CCCCCC">
+                        <Paddings Padding="0px" />
+                        <Border BorderColor="#CCCCCC" />
+                    </GroupContentStyle>
+                    <ItemStyle BackColor="WhiteSmoke" ForeColor="Black" ImageSpacing="8px">
+                        <SelectedStyle BackColor="#DEDEDE">
+                            <Border BorderColor="#DEDEDE" />
+                        </SelectedStyle>
+                        <HoverStyle BackColor="#E9E9E9" ForeColor="Black">
+                            <BorderLeft BorderColor="White" />
+                            <BorderTop BorderColor="White" />
+                            <BorderRight BorderColor="#E9E9E9" />
+                            <BorderBottom BorderColor="#E9E9E9" />
+                        </HoverStyle>
+                        <Paddings PaddingBottom="3px" PaddingLeft="7px" PaddingRight="7px" PaddingTop="3px" />
+                        <Border BorderColor="White" BorderStyle="Solid" BorderWidth="1px" />
+                    </ItemStyle>
+                    <ItemImage Url="~/Images/Plastic Blue/nbItemBullet.gif" />
+                    <LoadingPanelImage Url="~/Images/Plastic Blue/nbLoading.gif" />
+                    <GroupHeaderStyle BackColor="#3F5396" ForeColor="White">
+                        <Paddings PaddingBottom="4px" PaddingLeft="8px" PaddingRight="4px" PaddingTop="4px" />
+                        <BackgroundImage ImageUrl="~/Images/Plastic Blue/nbHeaderBack.gif" Repeat="RepeatX" />
+                        <Border BorderColor="#2C4182" />
+                    </GroupHeaderStyle>
+                    <Paddings Padding="1px" />
+                    <ExpandImage Url="~/Images/Plastic Blue/nbExpand.gif" />
+                    <LoadingPanelStyle ForeColor="#AAAAAA" ImageSpacing="6px">
+                    </LoadingPanelStyle>
+                    <CollapseImage Url="~/Images/Plastic Blue/nbCollapse.gif" />
+                </dxwn:ASPxNavBar>
+                <dxwn:ASPxNavBar ID="LeftNavBar" runat="server" Width="150px" GroupSpacing="1px">
+                    <GroupContentStyle BackColor="#CCCCCC">
+                        <Paddings Padding="0px" />
+                        <Border BorderColor="#CCCCCC" />
+                    </GroupContentStyle>
+                    <ItemStyle BackColor="WhiteSmoke" ForeColor="Black" ImageSpacing="8px">
+                        <SelectedStyle BackColor="#DEDEDE">
+                            <Border BorderColor="#DEDEDE" />
+                        </SelectedStyle>
+                        <HoverStyle BackColor="#E9E9E9" ForeColor="Black">
+                            <BorderLeft BorderColor="White" />
+                            <BorderTop BorderColor="White" />
+                            <BorderRight BorderColor="#E9E9E9" />
+                            <BorderBottom BorderColor="#E9E9E9" />
+                        </HoverStyle>
+                        <Paddings PaddingBottom="3px" PaddingLeft="7px" PaddingRight="7px" PaddingTop="3px" />
+                        <Border BorderColor="White" BorderStyle="Solid" BorderWidth="1px" />
+                    </ItemStyle>
+                    <ItemImage Url="~/Images/Plastic Blue/nbItemBullet.gif" />
+                    <LoadingPanelImage Url="~/Images/Plastic Blue/nbLoading.gif" />
+                    <GroupHeaderStyle BackColor="#3F5396" ForeColor="White">
+                        <Paddings PaddingBottom="4px" PaddingLeft="8px" PaddingRight="4px" PaddingTop="4px" />
+                        <BackgroundImage ImageUrl="~/Images/Plastic Blue/nbHeaderBack.gif" Repeat="RepeatX" />
+                        <Border BorderColor="#2C4182" />
+                    </GroupHeaderStyle>
+                    <Paddings Padding="1px" />
+                    <ExpandImage Url="~/Images/Plastic Blue/nbExpand.gif" />
+                    <LoadingPanelStyle ForeColor="#AAAAAA" ImageSpacing="6px">
+                    </LoadingPanelStyle>
+                    <CollapseImage Url="~/Images/Plastic Blue/nbCollapse.gif" />
+                </dxwn:ASPxNavBar>
+            </div>
+            <div id="master_content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="master_contentfooter">
+            <asp:Label ID="LblFooter" runat="server" Text="Designed by Gravisio - 2007"></asp:Label>
+            <br />
+            <br />
+        </div>
+    </form>
+</body>
+</html>

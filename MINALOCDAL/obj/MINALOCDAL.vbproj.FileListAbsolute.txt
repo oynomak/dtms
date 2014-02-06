@@ -1,0 +1,9 @@
+D:\WebSites\TMS\MINALOCDAL\bin\Debug\MINALOCDAL.dll
+D:\WebSites\TMS\MINALOCDAL\bin\Debug\MINALOCDAL.pdb
+D:\WebSites\TMS\MINALOCDAL\bin\Debug\MINALOCDAL.xml
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\MINALOCDAL.Resources.resources
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\MINALOCDAL.vbproj.GenerateResource.Cache
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\MINALOCDAL.dll
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\MINALOCDAL.xml
+D:\WebSites\TMS\MINALOCDAL\obj\Debug\MINALOCDAL.pdb

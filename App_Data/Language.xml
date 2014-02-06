@@ -1,0 +1,703 @@
+<labels>
+
+  <label name="Home" lang="en" value="Home" />
+  <label name="Home" lang="fr" value="Page d'accueil" />
+  <label name="Home" lang="rw" value="Ku irembo" />
+
+  <label name="Delete" lang="en" value="Delete" />
+  <label name="Delete" lang="fr" value="Effacer" />
+  <label name="Delete" lang="rw" value="Guhanagura" />
+	
+	
+  <label name="The Bank" lang="en" value="The Bank" />
+  <label name="The Bank" lang="fr" value="La Banque" />
+  <label name="The Bank" lang="rw" value="Banki" />	
+	
+
+  <label name="Select Category" lang="en" value="Select Category" />
+  <label name="Select Category" lang="fr" value="Séléctionner la Catégorie" />
+  <label name="Select Category" lang="rw" value="Hitamo icyiciro" />
+	
+	
+
+  <label name="Site Administration" lang="en" value="Site Administration" />
+  <label name="Site Administration" lang="fr" value="Administration du site" />
+	<label name="Site Administration" lang="rw" value="Kuyobora systeme" />	
+	
+  
+  <label name="Telephone" lang="en" value="Telephone" />
+  <label name="Telephone" lang="fr" value="Téléphone" />
+  <label name="Telephone" lang="rw" value="Télephoni" />	
+    
+  <label name="Select the Start Date" lang="en" value="Select the Start Date" />
+  <label name="Select the Start Date" lang="fr" value="Choisis la date de début" />
+	<label name="Select the Start Date" lang="rw" value="Hitamo itariki itangira" />	
+	
+  
+  <label name="Select the End Date" lang="en" value="Select the End Date" />
+  <label name="Select the End Date" lang="fr" value="Choisis la date de fin" />
+	<label name="Select the End Date" lang="rw" value="Hitamo itariki iheruka" />
+  
+  <label name="Search Results" lang="en" value="Search Results" />
+  <label name="Search Results" lang="fr" value="Résultats de recherche" />
+	<label name="Search Results" lang="rw" value="Ibyo mwashakishije" />
+  
+  <label name="results found for" lang="en" value="results found for" />
+  <label name="results found for" lang="fr" value="résultats ont trouvé pour" />
+	<label name="results found for" lang="rw" value="Ibisubizo ku ijambo" />
+  
+  <label name="Edit" lang="en" value="Edit" />
+  <label name="Edit" lang="fr" value="Éditer" />
+	<label name="Edit" lang="rw" value="Guhindura" />
+  
+  <label name="Delete" lang="en" value="Delete" />
+  <label name="Delete" lang="fr" value="Supprimer" />
+	<label name="Delete" lang="rw" value="Siba" />
+  
+  <label name="Save" lang="en" value="Save" />
+  <label name="Save" lang="fr" value="Enregistrer" />
+	<label name="Save" lang="rw" value="Kubika" />
+  
+  <label name="Cancel" lang="en" value="Cancel" />
+  <label name="Cancel" lang="fr" value="Annuler" />
+	<label name="Cancel" lang="rw" value="Subiramo" />
+  
+  <label name="Address" lang="en" value="Address" />
+  <label name="Address" lang="fr" value="Adresse" />
+	<label name="Address" lang="rw" value="Aho atuye" />
+  
+  <label name="Banks already in the system" lang="en" value="Banks already in the system" />
+  <label name="Banks already in the system" lang="fr" value="Banques déjà dans le système" />
+	<label name="Banks already in the system" lang="rw" value="Iyi Banki turayifite" />
+	
+  <label name="Bank's Name" lang="en" value="Bank's Name" />
+  <label name="Bank's Name" lang="fr" value="Le nom de banque" />
+	<label name="Bank's Name" lang="rw" value="Izina rya banki" />
+	
+  <label name="Users" lang="en" value="Users" />
+  <label name="Users" lang="fr" value="Utilisateurs" />
+	<label name="Users" lang="rw" value="Abakoresha TMS" />
+  
+  <label name="Details" lang="en" value="Details" />
+  <label name="Details" lang="fr" value="Détails" />
+	<label name="Details" lang="rw" value="Uburyo burambuye" />
+	
+  <label name="Description" lang="en" value="Description" />
+  <label name="Description" lang="fr" value="Description" />
+	<label name="Description" lang="rw" value="Igisobanuro" />
+	
+  <label name="Title" lang="en" value="Title" />
+  <label name="Title" lang="fr" value="Titre" />
+	<label name="Title" lang="rw" value="Interuro" />
+  
+  <label name="Report" lang="en" value="Report" />
+  <label name="Report" lang="fr" value="Rapport" />
+	<label name="Report" lang="rw" value="Raporo" />
+  
+  <label name="Reports" lang="en" value="Reports" />
+  <label name="Reports" lang="fr" value="Rapports" />
+	<label name="Reports" lang="rw" value="Za raporo" />
+
+  <label name="Banks" lang="en" value="Banks" />
+  <label name="Banks" lang="fr" value="Banques" />
+	<label name="Banks" lang="rw" value="Za banki" />
+  
+  <label name="Guest" lang="en" value="Guest" />
+  <label name="Guest" lang="fr" value="Évaluation " />
+	<label name="Guest" lang="rw" value="Umushyitsi " />
+  
+  <label name="Provinces" lang="en" value="Provinces" />
+  <label name="Provinces" lang="fr" value="Provinces" />
+	<label name="Provinces" lang="rw" value="Intara" />
+	
+  <label name="Sectors" lang="en" value="Sectors" />
+  <label name="Sectors" lang="fr" value="Secteurs" />
+	<label name="Sectors" lang="rw" value="Imirenge" />
+	
+  <label name="Sector" lang="en" value="Sector" />
+  <label name="Sector" lang="fr" value="Secteur" />
+	<label name="Sector" lang="rw" value="Umurenge" />
+  
+  <label name="No Sectors in this district" lang="en" value="No Sectors in this district" />
+  <label name="No Sectors in this district" lang="fr" value="Pas de secteurs dans ce district" />
+	<label name="No Sectors in this district" lang="rw" value="Nta murenge muri aka karere" />
+  
+  <label name="District" lang="en" value="District" />
+  <label name="District" lang="fr" value="District" />
+	<label name="District" lang="rw" value="Akarere" />
+	
+  <label name="Tax Types" lang="en" value="Tax Types" />
+  <label name="Tax Types" lang="fr" value="Types d'Impôt" />
+	<label name="Tax Types" lang="rw" value="Imisoro" />
+	
+  <label name="Taxpayers" lang="en" value="Taxpayers" />
+  <label name="Taxpayers" lang="fr" value="Contribuables" />
+	<label name="Taxpayers" lang="rw" value="Abasoreshwa" />
+  
+  <label name="Payments" lang="en" value="Payments" />
+  <label name="Payments" lang="fr" value="Paiements" />
+	<label name="Payments" lang="rw" value="Imisoro" />
+	
+	
+  <label name="Login to the Taxpayer Management System" lang="en" value="Login to the Taxpayer Management System" />
+  <label name="Login to the Taxpayer Management System" lang="fr" value="Connectez-vous au Système de gestion des contribuables" />
+	<label name="Login to the Taxpayer Management System" lang="rw" value="Gukoresha iyi systeme y'abasoreshwa" />
+	
+  <label name="To use the features provided by this application, you have to log in. Please provide your user name and password" lang="en" value="To use the features provided by this application, you have to log in. Please provide your user name and password" />
+  <label name="To use the features provided by this application, you have to log in. Please provide your user name and password" lang="fr" value="Pour utiliser les fonctionnalités offertes par cette application, vous devez vous connecter! S’il vous plaît fournir votre nom d'utilisateur et mot de passe" />
+  
+  <label name="If you have problems accessing the system, please contact your system administrator" lang="en" value="If you have problems accessing the system, please contact your system administrator" />
+  <label name="If you have problems accessing the system, please contact your system administrator" lang="fr" value="Si vous avez des difficultés à accéder au système, s’il vous plaît contactez votre administrateur système" />
+    
+  <label name="Kinyarwanda" lang="en" value="Kinyarwanda" />
+  <label name="Kinyarwanda" lang="fr" value="Kinyarwanda" />
+	<label name="Kinyarwanda" lang="rw" value="Ikinyarwanda" />
+	
+  <label name="English" lang="en" value="English" />
+  <label name="English" lang="fr" value="Anglais" />
+	<label name="English" lang="rw" value="Icyongereza" />
+  
+  <label name="French" lang="en" value="French" />
+  <label name="French" lang="fr" value="Français" />
+	<label name="French" lang="rw" value="Igifaransa" />
+  
+  <label name="Username" lang="en" value="Username" />
+  <label name="Username" lang="fr" value="Nom d'utilisateur" />
+  <label name="Username" lang="rw" value="Izina ryawe" />	
+	
+    
+  <label name="Password" lang="en" value="Password" />
+  <label name="Password" lang="fr" value="Mot de passe" />
+  <label name="Password" lang="rw" value="Ijambo ry'ibanga" />
+	
+  <label name="Sign In" lang="en" value="Sign In" />
+  <label name="Sign In" lang="fr" value="Connexion" />
+  <label name="Sign In" lang="rw" value="Injira" />
+  
+   <label name="Sign Out" lang="en" value="Sign Out" />
+  <label name="Sign Out" lang="fr" value="Déconnexion" />
+	<label name="Sign Out" lang="rw" value="Sohoka muri systeme" />	
+    
+  <label name="Designed by Gravisio - 2007" lang="en" value="Designed by Gravisio - 2007" />
+  <label name="Designed by Gravisio - 2007" lang="fr" value="Conçu par Gravisio - 2007" />
+	<label name="Designed by Gravisio - 2007" lang="fr" value="Yakozwe na Gravisio - 2007" />
+  
+  <label name="Invalid username or bad password. Please try again" lang="en" value="Invalid username or bad password. Please try again" />
+  <label name="Invalid username or bad password. Please try again" lang="fr" value="Nom d'utilisateur incorrect ou mauvais mot de passe. S’il vous plaît réessayer" />
+	<label name="Invalid username or bad password. Please try again" lang="rw" value="Izina cyangwa se ijambo ry'ibanga sibyo. Musabwe kongera kugerageza" />
+    
+  <label name="Tax Payments" lang="en" value="Tax Payments" />
+  <label name="Tax Payments" lang="fr" value="Paiements d'impôt" />
+	<label name="Tax Payments" lang="rw" value="Kwishyura imisoro" />
+	
+  <label name="Post a New Payment" lang="en" value="Post a New Payment" />
+  <label name="Post a New Payment" lang="fr" value="Poster un nouveau paiement" />
+	<label name="Post a New Payment" lang="rw" value="Ishyura umusoro" />
+  
+  <label name="Post a New Fee Payment" lang="en" value="Post a New Fee Payment" />
+  <label name="Post a New Fee Payment" lang="fr" value="Poster un nouveau paiement des taxes" />
+	<label name="Post a New Fee Payment" lang="rw" value="Ishyura amahoro" />
+  
+  <label name="Register a New TaxPayer" lang="en" value="Register a New TaxPayer" />
+  <label name="Register a New TaxPayer" lang="fr" value="Créer un nouveau contribuable" />
+	<label name="Register a New TaxPayer" lang="rw" value="Ongeramo umusoreshwa mushya" />
+  
+  <label name="View TaxPayer Details" lang="en" value="View TaxPayer Details" />
+  <label name="View TaxPayer Details" lang="fr" value="Voir détails contribuable" />
+	<label name="View TaxPayer Details" lang="rw" value="Umwirondoro w'umusoreshwa" />
+  
+  <label name="Quick Reports" lang="en" value="Quick Reports" />
+  <label name="Quick Reports" lang="fr" value="Rapports rapides" />
+	<label name="Quick Reports" lang="rw" value="Rapporo zihuse" />
+  
+  <label name="Tax Payments this month" lang="en" value="Tax Payments this month" />
+  <label name="Tax Payments this month" lang="fr" value="Paiements d'impôt de ce mois" />
+	<label name="Tax Payments this month" lang="rw" value="Imisoro y'uku kwezi" />
+  
+  <label name="Taxpayers By Sector and Cell" lang="en" value="Taxpayers By Sector and Cell" />
+  <label name="Taxpayers By Sector and Cell" lang="fr" value="Les contribuables, par secteur et par cellule" />
+	<label name="Taxpayers By Sector and Cell" lang="fr" value="Abasoreshwa mu Murenge no mu Kagari" />
+  
+  <label name="More" lang="en" value="More" />
+  <label name="More" lang="fr" value="Plus" />
+	<label name="More" lang="rw" value="Ibindi" />
+  
+  <label name="Control Panel" lang="en" value="Control Panel" />
+  <label name="Control Panel" lang="fr" value="Control Panel" />
+	<label name="Control Panel" lang="rw" value="Control Panel" />
+  
+  <label name="Taxpayer Registry By District" lang="en" value="Taxpayer Registry By District" />
+  <label name="Taxpayer Registry By District" lang="fr" value="Registre des contribuables par district" />
+	<label name="Taxpayer Registry By District" lang="rw" value="Abasoreshwa mu Karere" />
+  
+  <label name="District Data" lang="en" value="District Data" />
+  <label name="District Data" lang="fr" value="Les données provenant de Districts" />
+	<label name="District Data" lang="rw" value="Amakuru avuye mu Karere" />
+  
+  <label name="Cell" lang="en" value="Cell" />
+  <label name="Cell" lang="fr" value="Cellule" />
+	<label name="Cell" lang="rw" value="Akagari" />
+	
+  <label name="Date of Birth" lang="en" value="Date of Birth" />
+  <label name="Date of Birth" lang="fr" value="Date de naissance" />
+  <label name="Date of Birth" lang="rw" value="Itariki yavutseho" />
+
+  <label name="E-mail" lang="en" value="E-mail" />
+  <label name="E-mail" lang="fr" value="E-mail" />
+	<label name="E-mail" lang="rw" value="E-mail" />
+  
+  <label name="File Number" lang="en" value="File Number" />
+  <label name="File Number" lang="fr" value="Numéro du dossier" />
+	<label name="File Number" lang="rw" value="Nimero y'ifishi" />
+  
+  <label name="ID No." lang="en" value="ID No." />
+  <label name="ID No." lang="fr" value="ID No." />
+  
+  <label name="Mobile" lang="en" value="Mobile" />
+  <label name="Mobile" lang="fr" value="Mobile" />
+  
+  <label name="Name" lang="en" value="Name" />
+  <label name="Name" lang="fr" value="Nom" />
+	<label name="Name" lang="rw" value="Izina" />
+	
+  <label name="Identification Type" lang="en" value="Identification Type" />
+  <label name="Identification Type" lang="fr" value="Type d'identification" />
+	<label name="Identification Type" lang="rw" value="Ubwoko bw'icyangombwa" />
+  
+  <label name="TIN" lang="en" value="TIN" />
+  <label name="TIN" lang="fr" value="TIN" />
+  
+  <label name="Profession" lang="en" value="Profession" />
+  <label name="Profession" lang="fr" value="Profession" />
+	<label name="Profession" lang="rw" value="Umwuga" />
+	
+  <label name="Add Taxpayer" lang="en" value="Add Taxpayer" />
+  <label name="Add Taxpayer" lang="fr" value="Ajouter des contribuables" />
+	<label name="Add Taxpayer" lang="rw" value="Ongeramo abasoreshwa" />
+	
+  <label name="Control Panel" lang="en" value="Control Panel" />
+  <label name="Control Panel" lang="fr" value="Panneau de configuration" />
+  
+  <label name="Last Updated" lang="en" value="Last Updated" />
+  <label name="Last Updated" lang="fr" value="Dernière mise à jour" />
+	<label name="Last Updated" lang="rw" value="Ubwo baheruka kongeramo ibindi" />
+  
+  <label name="New Records" lang="en" value="New Records" />
+  <label name="New Records" lang="fr" value="Nouvelle" />
+	<label name="New Records" lang="rw" value="Nshyashya" />
+	
+  <label name="Changed Records" lang="en" value="Changed Records" />
+  <label name="Changed Records" lang="fr" value="Documents changé" />
+	<label name="Changed Records" lang="rw" value="Izahindutse" />
+	
+  <label name="Removed Records" lang="en" value="Removed Records" />
+  <label name="Removed Records" lang="fr" value="Documents Enlevée" />
+	<label name="Removed Records" lang="rw" value="Ibyasibwe" />
+  
+  <label name="View" lang="en" value="View" />
+  <label name="View" lang="fr" value="Affichage" />
+	<label name="View" lang="rw" value="Erekana" />
+  
+  <label name="Add New Payment" lang="en" value="Add New Payment" />
+  <label name="Add New Payment" lang="fr" value="Ajouter un nouveau paiement" />
+	<label name="Add New Payment" lang="rw" value="Ishyuza umusoro" />
+  
+  <label name="Tax and Fee Payments" lang="en" value="Tax Payments" />
+  <label name="Tax and Fee Payments" lang="fr" value="Paiements d'Impôt" />
+	<label name="Tax and Fee Payments" lang="rw" value="Kwishyura Amahoro" />
+	
+  <label name="Date" lang="en" value="Date" />
+  <label name="Date" lang="fr" value="Date" />
+	<label name="Date" lang="rw" value="Itariki" />
+  
+  <label name="Taxpayer" lang="en" value="Taxpayer" />
+  <label name="Taxpayer" lang="fr" value="Contribuable" />
+	<label name="Taxpayer" lang="rw" value="Umusoreshwa" />
+  
+  <label name="Amount" lang="en" value="Amount" />
+  <label name="Amount" lang="fr" value="Montant" />
+	<label name="Amount" lang="rw" value="Amafaranga" />
+  
+  <label name="Description" lang="en" value="Description" />
+  <label name="Description" lang="fr" value="Description" />
+	<label name="Description" lang="rw" value="Igisobanuro" />
+  
+  <label name="Tax Type" lang="en" value="Tax Type" />
+  <label name="Tax Type" lang="fr" value="Type d'impôt" />
+	<label name="Tax Type" lang="rw" value="Umusoro" />
+  
+  <label name="Cashier" lang="en" value="Cashier" />
+  <label name="Cashier" lang="fr" value="Caissier" />
+	<label name="Cashier" lang="rw" value="Umusoresha" />
+  
+  <label name="Today's Tax payments" lang="en" value="Today's Tax payments" />
+  <label name="Today's Tax payments" lang="fr" value="Aujourd'hui, le Paiement des impôts" />
+  <label name="Today's Tax payments" lang="rw" value="Uyu munsi, Imisoro yishyuwe" />
+  
+  <label name="This month's Tax Payments" lang="en" value="This month's Tax Payments" />
+  <label name="This month's Tax Payments" lang="fr" value="Ce mois-Paiements d'impôt" />
+  <label name="This month's Tax Payments" lang="rw" value="Imisoro y'uku kwezi" />
+
+  <label name="This Year's Tax payments" lang="en" value="This Year's Tax payments" />
+  <label name="This Year's Tax payments" lang="fr" value="Cette année, le Paiement des impôts" />
+  <label name="This Year's Tax payments" lang="rw" value="Imisoro y'uyu mwaka" />
+	
+  <label name="Tax payments for a specified period" lang="en" value="Tax payments for a specified period" />
+  <label name="Tax payments for a specified period" lang="fr" value="Paiement des impôts pour une période déterminée" />
+  <label name="Tax payments for a specified period" lang="rw" value="Imisoro mu gihe wihitiyemo" />
+  
+  <label name="Tax Payments By District For a specified period" lang="en" value="Tax Payments By District For a specified period" />
+  <label name="Tax Payments By District For a specified period" lang="fr" value="Paiements d'impôt par district pour une période déterminée" />
+	<label name="Tax Payments By District For a specified period" lang="rw" value="Imisoro yishyuwe mu karere mu gihe wihitiyemo" />
+  
+  <label name="Summary of Payments by Tax type" lang="en" value="Summary of Payments by Tax type" />
+  <label name="Summary of Payments by Tax type" lang="fr" value="Sommaire des paiements par type d'impôt" />
+	<label name="Summary of Payments by Tax type" lang="rw" value="Inshamake y'imisoro yishyuwe hakurikijwe ubwoko bw'umusoro" />
+  
+  <label name="Summary of Tax Payments by District" lang="en" value="Summary of Tax Payments by District" />
+  <label name="Summary of Tax Payments by District" lang="fr" value="Sommaire des paiements par district" />
+	<label name="Summary of Tax Payments by District" lang="rw" value="Inshamake y'imisoro yishyuwe mu karere" />
+  
+  <label name="Summary of Tax Payments by District and Tax type" lang="en" value="Summary of Tax Payments by District and Tax type" />
+  <label name="Summary of Tax Payments by District and Tax type" lang="fr" value="Sommaire des Paiements d'impôt par le district et le type d'impôt" />
+  
+  <label name="Taxpayer Registry by District" lang="en" value="Taxpayer Registry by District" />
+  <label name="Taxpayer Registry by District" lang="fr" value="Registre des contribuables par district" />
+	<label name="Taxpayer Registry by District" lang="rw" value="Urutonde rw'abasoreshwa mu karere" />
+  
+  <label name="Taxpayer Registry" lang="en" value="Taxpayer Registry" />
+  <label name="Taxpayer Registry" lang="fr" value="Registre des Contribuables" />
+	<label name="Taxpayer Registry" lang="rw" value="Urutonde rw'abasoreshwa" />
+	
+  <label name="Taxpayer Registry By Profession By District" lang="en" value="Taxpayer Registry By Profession By District" />
+  <label name="Taxpayer Registry By Profession By District" lang="fr" value="Registre des contribuables de profession, par district" />
+	<label name="Taxpayer Registry By Profession By District" lang="rw" value="Urutonde rw'abasoreshwa ukurikije akarere n'umwuga bakora" />
+  
+  <label name="Defaulters by sector and cell" lang="en" value="Defaulters by sector and cell" />
+  <label name="Defaulters by sector and cell" lang="fr" value="Ceux qui n'ont pas payés par secteur et de cellules" />
+	<label name="Defaulters by sector and cell" lang="rw" value="Abatarishyura imisoro ukurikije umurenge n'akagari" />
+  
+  <label name="Defaulters by District" lang="en" value="Defaulters by District" />
+  <label name="Defaulters by District" lang="fr" value="En défaut de paiement par district" />
+  <label name="Defaulters by District" lang="rw" value="Abatarishyura imisoro ukurikije" />
+	
+	<label name="Southern Province" lang="en" value="Southern Province" />
+  <label name="Southern Province" lang="fr" value="Province du Sud" />
+	<label name="Southern Province" lang="rw" value="Intara y'Amajyepfo" />
+	
+  <label name="Northern Province" lang="en" value="Northern Province" />
+  <label name="Northern Province" lang="fr" value="Province Nord" />
+	<label name="Northern Province" lang="rw" value="Intara y'Amajyaruguru" />
+	
+  <label name="Western Province" lang="en" value="Western Province" />
+  <label name="Western Province" lang="fr" value="La province de l'Ouest" />
+	<label name="Western Province" lang="rw" value="Intara y'Iburengerazuba" />
+	
+  <label name="Eastern Province" lang="en" value="Eastern Province" />
+  <label name="Eastern Province" lang="fr" value="Province de l'Est" />
+	<label name="Eastern Province" lang="rw" value="Intara y'Iburasirazuba" />
+  
+  <label name="Kigali City" lang="en" value="Kigali City" />
+  <label name="Kigali City" lang="fr" value="Ville de Kigali" />
+	<label name="Kigali City" lang="rw" value="Umujyi wa Kigali" />
+  
+  <label name="Manage the Sectors List" lang="en" value="Manage the Sectors List" />
+  <label name="Manage the Sectors List" lang="fr" value="Gérer la liste des secteurs" />
+  
+  <label name="Manage the Provinces List" lang="en" value="Manage the Provinces List" />
+  <label name="Manage the Provinces List" lang="fr" value="Gérer la liste des provinces" />
+  
+  <label name="Regions" lang="en" value="Regions" />
+  <label name="Regions" lang="fr" value="Régions" />
+	<label name="Regions" lang="rw" value="Ahantu" />	
+  
+  <label name="Security" lang="en" value="Security" />
+  <label name="Security" lang="fr" value="De Sécurité" />
+  
+  <label name="Manage Users who can access this application" lang="en" value="Manage Users who can access this application" />
+  <label name="Manage Users who can access this application" lang="fr" value="Gérer les utilisateurs qui peuvent accéder à cette application" />
+  
+  <label name="Manage User Permissions" lang="en" value="Manage User Permissions" />
+  <label name="Manage User Permissions" lang="fr" value="Gérer les autorisations utilisateur" />
+  
+  <label name="Payment Institutions" lang="en" value="Payment Institutions" />
+  <label name="Payment Institutions" lang="fr" value="Les établissements de paiement" />
+  
+  <label name="Search results for" lang="en" value="Search results for" />
+  <label name="Search results for" lang="fr" value="Résultats de recherche pour" />
+  <label name="Search results for" lang="rw" value="Ibisubizo by'ibyo mwashakishaga" />
+	
+  <label name="Tenants" lang="en" value="Tenants" />
+  <label name="Tenants" lang="fr" value="Les Locataires" />
+  <label name="Tenants" lang="rw" value="Abakodesha amazu" />
+	
+  <label name="Land Parcels" lang="en" value="Land Parcels" />
+  <label name="Land Parcels" lang="fr" value="Des Parcelles de Terrain" />
+	<label name="Land Parcels" lang="rw" value="Ibibanza" />
+	
+  <label name="Businesses" lang="en" value="Businesses" />
+  <label name="Businesses" lang="fr" value="Les Entreprises" />
+  <label name="Businesses" lang="rw" value="Ubucuruzi" />
+    
+  <label name="Taxpayer Details" lang="en" value="Taxpayer Details" />
+  <label name="Taxpayer Details" lang="fr" value="Détails des contribuables" />
+  <label name="Taxpayer Details" lang="rw" value="Umwirondoro w'umusoreshwa" />
+	
+  <label name="Edit Taxpayer Details" lang="en" value="Edit Taxpayer Details" />
+  <label name="Edit Taxpayer Details" lang="fr" value="Modifier contribuable détails" />
+    
+  <label name="Full Name" lang="en" value="Full Name" />
+  <label name="Full Name" lang="fr" value="Nom complet" />
+	<label name="Full Name" lang="rw" value="Amazina yombi" />
+	
+  <label name="Plot No." lang="en" value="Plot No." />
+  <label name="Plot No." lang="fr" value="Plot No." />
+	<label name="Plot No." lang="rw" value="No y'ikibanza" />
+	
+  <label name="Properties" lang="en" value="Properties" />
+  <label name="Properties" lang="fr" value="Propriétés" />
+      
+  <label name="Use" lang="en" value="Use" />
+  <label name="Use" lang="fr" value="Utilisation" />
+	<label name="Use" lang="rw" value="Hakorerwa iki?" />
+  
+  <label name="Owner's Name" lang="en" value="Owner's Name" />
+  <label name="Owner's Name" lang="fr" value="Le nom du propriétaire" />
+  <label name="Owner's Name" lang="rw" value="Izina rya nyirayo" />
+	
+  <label name="Date of Acquisition" lang="en" value="Date of Acquisition" />
+  <label name="Date of Acquisition" lang="fr" value="Date d'acquisition" />
+	<label name="Date of Acquisition" lang="rw" value="Itariki yayibonye" />
+	
+  <label name="Property Value - Owner" lang="en" value="Property Value - Owner" />
+  <label name="Property Value - Owner" lang="fr" value="Valeur de la propriété - propriétaire" />
+	<label name="Property Value - Owner" lang="rw" value="Agaciro k'Umutungo - Nyirawo" />
+  
+  <label name="Property Value - District" lang="en" value="Property Value - District" />
+  <label name="Property Value - District" lang="fr" value="Valeur des biens - District" />
+	<label name="Property Value - District" lang="rw" value="Agaciro k'Umutungo - Akarere" />
+	
+  <label name="Business Name" lang="en" value="Business Name" />
+  <label name="Business Name" lang="fr" value="Nom de l'Entreprise" />
+	<label name="Business Name" lang="rw" value="Izina ry'ubucuruzi" />
+      
+  <label name="Start Date" lang="en" value="Start Date" />
+  <label name="Start Date" lang="fr" value="Date de début" />
+	<label name="Start Date" lang="rw" value="Itariki yatangiryeho" />
+  
+  <label name="Bank Accounts" lang="en" value="Bank Accounts" />
+  <label name="Bank Accounts" lang="fr" value="Comptes Bancaires" />
+	<label name="Bank Accounts" lang="rw" value="Amakonti ya banki" />
+    
+  <label name="Bank" lang="en" value="Bank" />
+  <label name="Bank" lang="fr" value="Banque" />
+	<label name="Bank" lang="rw" value="Ibanki" />
+      
+  <label name="Branch" lang="en" value="Branch" />
+  <label name="Branch" lang="fr" value="Branche" />
+	<label name="Branch" lang="rw" value="Ishami" />
+  
+  <label name="Account No." lang="en" value="Account No." />
+  <label name="Account No." lang="fr" value="N° de Compte" />
+	<label name="Account No." lang="rw" value="Nimero ya Compte" />
+  
+  <label name="Year" lang="en" value="Year" />
+  <label name="Year" lang="fr" value="Année" />
+	<label name="Year" lang="rw" value="Umwaka" />
+  
+  <label name="Standing Level" lang="en" value="Standing Level" />
+  <label name="Standing Level" lang="fr" value="Niveau Permanent" />
+	<label name="Standing Level" lang="rw" value="Urwego rw'ikibanza" />
+  
+  <label name="Land Title" lang="en" value="Land Title" />
+  <label name="Land Title" lang="fr" value="Land Title" />
+  
+  <label name="Title No." lang="en" value="Title No." />
+  <label name="Title No." lang="fr" value="Titre N°" />
+  
+  <label name="Usage" lang="en" value="Usage" />
+  <label name="Usage" lang="fr" value="Usage" />
+	<label name="Usage" lang="rw" value="Ikihakorerwa" />
+	
+  <label name="Houses" lang="en" value="Number of Houses" />
+  <label name="Houses" lang="fr" value="Nombre de Maisons" />
+	<label name="Houses" lang="rw" value="Umubare w'amazu" />
+  
+  <label name="Contract No." lang="en" value="Contract No." />
+  <label name="Contract No." lang="fr" value="Contrat N°" />
+  
+  <label name="Contract Date" lang="en" value="Contract Date" />
+  <label name="Contract Date" lang="fr" value="Date du Contrat" />
+	<label name="Contract Date" lang="rw" value="Itariki ya kontaro" />
+	
+  <label name="Edit Bank details" lang="en" value="Edit Bank details" />
+  <label name="Edit Bank details" lang="fr" value="Modifier Coordonnées bancaires" />
+  <label name="Edit Bank details" lang="rw" value="Hindura ibirebana na Banki" />
+  
+  <label name="Edit Tenants" lang="en" value="Edit Tenants" />
+  <label name="Edit Tenants" lang="fr" value="Modifier locataires" />
+  <label name="Edit Tenants" lang="rw" value="Hindura ibirebana n'abakodesha amazu ye" />
+  
+  <label name="Edit Properties" lang="en" value="Edit Properties" />
+  <label name="Edit Properties" lang="fr" value="Modifier les propriétés " />
+  <label name="Edit Properties" lang="rw" value="Hindura ibirebana nimitungo " />
+	
+  <label name="Edit Land Parcels" lang="en" value="Edit Land Parcels" />
+  <label name="Edit Land Parcels" lang="fr" value="Modifier les parcelles " />
+  
+  <label name="Edit Businesses" lang="en" value="Edit Businesses" />
+  <label name="Edit Businesses" lang="fr" value="Modifier entreprises" />
+  
+  <label name="Activate" lang="en" value="Activate" />
+  <label name="Activate" lang="fr" value="Activer" />
+  
+  <label name="Deactivate" lang="en" value="Deactivate" />
+  <label name="Deactivate" lang="fr" value="Désactiver" />
+  
+  <label name="Active" lang="en" value="Active" />
+  <label name="Active" lang="fr" value="Active" />
+  
+  <label name="Inactive" lang="en" value="Inactive" />
+  <label name="Inactive" lang="fr" value="Inactif" />
+  
+  <label name="Add User" lang="en" value="Add User" />
+  <label name="Add User" lang="fr" value="Ajouter un utilisateur" />
+  
+  <label name="Select a Taxpayer" lang="en" value="Select a Taxpayer" />
+  <label name="Select a Taxpayer" lang="fr" value="Sélectionnez un contribuable" />
+  <label name="Select a Taxpayer" lang="rw" value="Hitamo umusoreshwa" />
+  
+  <label name="Fee Payment" lang="en" value="Fee Payment" />
+  <label name="Fee Payment" lang="fr" value="Paiement des droits" />
+  
+  <label name="Payment Date" lang="en" value="Payment Date" />
+  <label name="Payment Date" lang="fr" value="Date de Paiement" />
+	<label name="Payment Date" lang="rw" value="Itariki yo kwishyura" />
+  
+  <label name="Land Parcel Details" lang="en" value="Land Parcel Details" />
+  <label name="Land Parcel Details" lang="fr" value="Détails de Parcelles" />
+  <label name="Land Parcel Details" lang="rw" value="Imyirondoro y'Ibibanza " />
+  
+  <label name="No Sectors" lang="en" value="No Sectors" />
+  <label name="No Sectors" lang="fr" value="Pas de secteurs" />
+	<label name="No Sectors" lang="rw" value="Nta murenge" />
+  
+  <label name="No Taxpayers" lang="en" value="No Taxpayers" />
+  <label name="No Taxpayers" lang="fr" value="Pas des contribuables" />
+	<label name="No Taxpayers" lang="rw" value="Nta musoreshwa" />
+  
+  <label name="No Tax payments" lang="en" value="No Tax payments" />
+  <label name="No Tax payments" lang="fr" value="Pas des Paiements" />
+	<label name="No Tax payments" lang="rw" value="Nta wishyuye" />
+  
+  <label name="Today" lang="en" value="Today" />
+  <label name="Today" lang="fr" value="Aujourd'hui" />
+	<label name="Today" lang="rw" value="Uyu munsi" />
+  
+  <label name="This Week" lang="en" value="This Week" />
+  <label name="This Week" lang="fr" value="Cette Semaine" />
+	<label name="This Week" lang="rw" value="Iki cyumweru" />
+  
+  <label name="This Month" lang="en" value="This Month" />
+  <label name="This Month" lang="fr" value="Ce Mois" />
+	<label name="This Month" lang="rw" value="Uku kwezi" />
+  
+  <label name="This Year" lang="en" value="This Year" />
+  <label name="This Year" lang="fr" value="Cette Année" />
+	<label name="This Year" lang="rw" value="Uyu mwaka" />
+  
+  <label name="Specify Period" lang="en" value="Specify Period" />
+  <label name="Specify Period" lang="fr" value="Précisez Période" />
+	<label name="Specify Period" lang="rw" value="Hitamo igihe" />
+  
+  <label name="No Cells" lang="en" value="No Cells" />
+  <label name="No Cells" lang="fr" value="Pas de cellules" />
+	<label name="No Cells" lang="rw" value="Nta kagari" />
+  
+  <label name="Select a Bank Branch" lang="en" value="Select a Bank Branch" />
+  <label name="Select a Bank Branch" lang="fr" value="Sélectionnez une succursale bancaire" />
+	<label name="Select a Bank Branch" lang="rw" value="Hitamo ishami rya banki" />
+  
+  <label name="Add Bank Account" lang="en" value="Add Bank Account" />
+  <label name="Add Bank Account" lang="fr" value="Ajouter un compte bancaire" />
+  
+  <label name="Add" lang="en" value="Add" />
+  <label name="Add" lang="fr" value="Ajouter" />
+  
+  <label name="Change Bank Account" lang="en" value="Change Bank Account" />
+  <label name="Change Bank Account" lang="fr" value="Changement de compte bancaire" />
+  
+  <label name="Change" lang="en" value="Change" />
+  <label name="Change" lang="fr" value="Changer" />
+  
+  <label name="Remove" lang="en" value="Remove" />
+  <label name="Remove" lang="fr" value="Supprimer" />
+  
+  <label name="Add Business" lang="en" value="Add Business" />
+  <label name="Add Business" lang="fr" value="Ajouter un Etablissement" />
+  
+  <label name="Change Business" lang="en" value="Change Business" />
+  <label name="Change Business" lang="fr" value="Changer l'entreprise" />
+  
+  <label name="Add Land Parcel" lang="en" value="Add Land Parcel" />
+  <label name="Add Land Parcel" lang="fr" value="Ajouter des parcelles" />
+  
+  <label name="Change Land Parcel" lang="en" value="Change Land Parcel" />
+  <label name="Change Land Parcel" lang="fr" value="Changement des parcelles" />
+  
+  <label name="Add Property" lang="en" value="Add Property" />
+  <label name="Add Property" lang="fr" value="Ajouter une propriété" />
+  
+  <label name="Change Property" lang="en" value="Change Property" />
+  <label name="Change Property" lang="fr" value="Changement de propriété" />
+	<label name="Change Property" lang="rw" value="Guhindura umutungo" />
+  
+  <label name="Add Tenant" lang="en" value="Add Tenant" />
+  <label name="Add Tenant" lang="fr" value="Ajouter des locataires" />
+	<label name="Add Tenant" lang="rw" value="Ukodesha inzu mushya" />
+  
+  <label name="Change Tenant" lang="en" value="Change Tenant" />
+  <label name="Change Tenant" lang="fr" value="Changement des locataires" />
+	<label name="Change Tenant" lang="rw" value="Guhindura ukodesha inzu" />
+  
+  <label name="Tax Payment" lang="en" value="Tax Payment" />
+  <label name="Tax Payment" lang="fr" value="Paiement de taxes" />
+	<label name="Tax Payment" lang="rw" value="Kwishyura imisoro" />
+  
+  <label name="MorSelect a Tax Typee" lang="en" value="Select a Tax Type" />
+  <label name="Select a Tax Type" lang="fr" value="Sélectionnez un type d'impôt" />
+	<label name="Select a Tax Type" lang="rw" value="Hitamo ubwoko bw'umusoro" />
+  
+  <label name="Report Parameters" lang="en" value="Report Parameters" />
+  <label name="Report Parameters" lang="fr" value="Paramètres du rapport" />
+	<label name="Report Parameters" lang="rw" value="Ibikenewe kugira ngo urebe raporo" />
+  
+  <label name="End Date" lang="en" value="End Date" />
+  <label name="End Date" lang="fr" value="Date de fin" />
+	<label name="End Date" lang="rw" value="Itariki ya nyuma" />
+  
+  <label name="Select District" lang="en" value="Select District" />
+  <label name="Select District" lang="fr" value="Sélectionner un district" />
+	<label name="Select District" lang="rw" value="Hitamo akarere" />
+  
+  <label name="View Report" lang="en" value="View Report" />
+  <label name="View Report" lang="fr" value="Voir le Rapport" />
+	<label name="View Report" lang="rw" value="Kureba Rapport" />
+  
+  <label name="User Details" lang="en" value="User Details" />
+  <label name="User Details" lang="fr" value="Détails de l'utilisateur" />
+	<label name="User Details" lang="rw" value="Umwirondoro w'ukoresha systeme" />
+  
+  <label name="More" lang="en" value="More" />
+  <label name="More" lang="fr" value="Plus" />
+  
+  <label name="More" lang="en" value="More" />
+  <label name="More" lang="fr" value="Plus" />
+  
+  <label name="More" lang="en" value="More" />
+  <label name="More" lang="fr" value="Plus" />
+	<label name="More" lang="rw" value="Ibindi" />
+</labels>
+
+
+

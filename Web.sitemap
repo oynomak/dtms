@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode url="" title="Tax payment operations"  description="">
+        <siteMapNode url="TaxPayers.aspx" title="Tax payers"  description="" />
+        <siteMapNode url="TaxPayments.aspx" title="Tax payment"  description="" />
+      <siteMapNode url="FeePayments.aspx" title="Fee payment"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Administation"  description="">
+      <siteMapNode url="permissions.aspx" title="Permission"  description="" />
+      <siteMapNode url="UserPermission.aspx" title="User permission"  description="" />
+      <siteMapNode url="Users.aspx" title="Users"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="parameters"  description="">
+      <siteMapNode url="Provinces.aspx" title="Provinces"  description="" />
+      <siteMapNode url="Districts.aspx" title="District"  description="" />
+      <siteMapNode url="Sectors.aspx" title="Sector"  description="" />
+      <siteMapNode url="Cells.aspx" title="Cells"  description="" />
+      <siteMapNode url="Properties.aspx" title="Properties"  description="" />
+      <siteMapNode url="Banks.aspx" title="Banks"  description="" />
+      <siteMapNode url="HouseTenants.aspx" title="House tenants"  description="" />
+      <siteMapNode url="BankAccounts.aspx" title="Bank account"  description="" />
+      <siteMapNode url="BankBranches.aspx" title="Bank branches"  description="" />
+      
+      <siteMapNode url="Businesses.aspx" title="Business"  description="" />
+      <siteMapNode url="LandParcels.aspx" title="land parcels"  description="" />
+    </siteMapNode>
+     <siteMapNode url="" title="reports"  description="">
+        <siteMapNode url="" title=""  description="" />
+        <siteMapNode url="" title=""  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
